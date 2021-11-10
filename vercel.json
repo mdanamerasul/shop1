@@ -1,7 +1,9 @@
+  //"NEXT_PUBLIC_REST_API_ENDPOINT": "http://www.sparkfilter.xyz/api/",
+
 {
   "env": {
     "FRAMEWORK_PROVIDER": "rest",
-    //"NEXT_PUBLIC_REST_API_ENDPOINT": "http://www.sparkfilter.xyz/api/",
+  
     "NEXT_PUBLIC_REST_API_ENDPOINT": "http://api.sparkfilter.store/",
     "NEXT_PUBLIC_GRAPHQL_API_ENDPOINT": "https://pickbazarapi.redq.io/graphql/",
     "NEXT_PUBLIC_SITE_URL": "https://shop1-blue.vercel.app/",
@@ -14,7 +16,6 @@
   "build": {
     "env": {
       "FRAMEWORK_PROVIDER": "rest",
-      //"NEXT_PUBLIC_REST_API_ENDPOINT": "http://www.sparkfilter.xyz/api",
       "NEXT_PUBLIC_REST_API_ENDPOINT": "http://api.sparkfilter.store/",
       "NEXT_PUBLIC_GRAPHQL_API_ENDPOINT": "https://pickbazarapi.redq.io/graphql/",
       "NEXT_PUBLIC_SITE_URL": "https://shop1-blue.vercel.app/",
