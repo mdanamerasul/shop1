@@ -11,6 +11,7 @@ module.exports = withPWA({
   },
   images: {
     domains: [
+      'shop1-two.vercel.app',
       'shop.sparkfilter.xyz',
       'pickbazarlaravel.s3.ap-southeast-1.amazonaws.com',
       'lh3.googleusercontent.com',
