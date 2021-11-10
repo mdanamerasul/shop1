@@ -22,6 +22,7 @@ export default class CustomDocument extends Document {
     return (
       <Html>
         <Head>
+          <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
           <link
             href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap"
             rel="stylesheet"
